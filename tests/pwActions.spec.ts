@@ -29,7 +29,7 @@ test('Radio Button Actions',async ({page})=>{
      await page.waitForTimeout(5000);    
 });
 
-test.only('Check boxes',async({page})=>{
+test('Check boxes',async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/");
     //Find a specific check box Sunday and then test it 
     const checkboxSunday = page.getByLabel("Sunday");
