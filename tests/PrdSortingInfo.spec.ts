@@ -34,7 +34,4 @@ test ("Verify Product Sorting and Information Retrieval",async ({page})=>{
    const prdprice = await item.locator('.val').textContent();
    console.log(prdname +"and its price is " +prdprice);
    }
-
-
-    
 });
